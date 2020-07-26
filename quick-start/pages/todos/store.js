@@ -18,7 +18,7 @@ export default new Store({
     visibilityFilter: VisibilityFilters.SHOW_ALL
   },
   getters: {
-    counts: state => state.getIn('todos').length,
+    counts: state => state.getIn('todos', []).length,
     cardDetailName: state => state.getIn(['cardDetail', 'xxInfo', 'detail', 'name'], ''),
   },
   plugins: [

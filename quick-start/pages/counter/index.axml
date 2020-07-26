@@ -8,5 +8,8 @@
   <button onTap="incrementIfOdd">奇数增加</button>
   <button onTap="incrementAsync">异步增加</button>
   <button onTap="incrementRequest">请求增加</button>
+
+
+  <button onTap="subPackageSyncTest">跳转到分包页面</button>
 </view>
 

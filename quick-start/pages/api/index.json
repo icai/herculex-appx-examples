@@ -2,7 +2,7 @@
   "defaultTitle": "简单 api 获取数据",
   "usingComponents": {
     "ws": "../../components/whitespace/index",
-    "list": "mini-antui/es/list/index",
-    "list-item": "mini-antui/es/list/list-item/index"
+    "list": "mini-ali-ui/es/list/index",
+    "list-item": "mini-ali-ui/es/list/list-item/index"
   }
 }

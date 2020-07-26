@@ -4,7 +4,7 @@
   "dependencies": {
     "herculex": "^0.2.5",
     "herculex-appx-plugin-api": "^0.1.1",
-    "mini-antui": "0.3.10-alpha.3",
+    "mini-ali-ui": "1.1.2",
     "moment": "^2.22.2"
   },
   "anymock": {
