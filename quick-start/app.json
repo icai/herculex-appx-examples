@@ -2,7 +2,8 @@
   "pages": [
     "pages/counter/index",
     "pages/todos/index",
-    "pages/api/index"
+    "pages/api/index",
+    "pages/test/index"
   ],
   "subPackages": [
     {

@@ -37,7 +37,11 @@ Page(store.register({
     this.dispatch('incrementRequest')
   },
   subPackageSyncTest() {
-    this.commit('$global:updateTest');
+    this.commit('$global:updateSubTest');
     my.navigateTo({ url: '/packages/pages/index/index' })
+  },
+  pageSyncTest() {
+    this.commit('$global:updatePageTest');
+    my.navigateTo({ url: '/pages/test/index' })
   }
 }));

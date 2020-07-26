@@ -9,6 +9,10 @@
   <button onTap="incrementAsync">异步增加</button>
   <button onTap="incrementRequest">请求增加</button>
 
+  <view>  ------ </view>
+
+  <button onTap="pageSyncTest">跳转到同包页面</button>
+
 
   <button onTap="subPackageSyncTest">跳转到分包页面</button>
 </view>
