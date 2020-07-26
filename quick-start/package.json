@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {},
   "dependencies": {
-    "herculex": "^0.2.5",
+    "herculex": "^0.2.15",
     "herculex-appx-plugin-api": "^0.1.1",
     "mini-ali-ui": "1.1.2",
     "moment": "^2.22.2"

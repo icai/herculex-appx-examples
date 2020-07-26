@@ -1,4 +1,5 @@
 import Store from './store';
+import herculex from 'herculex';
 App(Store({
   onLaunch(options) {
   },
@@ -11,6 +12,7 @@ App(Store({
   onError(msg) {
     console.log('app OnError: ', msg);
   },
+  herculex: herculex,
   globalData: {
   },
 }));
